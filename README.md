@@ -57,7 +57,7 @@ To get started, execute **openSimulinkExample.m** or **openSimscapeExample.m** t
 
 ## License
 
-The license for [Unifying MATLAB and Simulink Example](https://github.com/mathworks/Unifying-MATLAB-and-Simulink-Example) is available in the [LICENSE.TXT](LICENSE.TXT) file in this GitHub repository.
+The license for [Unifying MATLAB and Simulink Example](https://github.com/guirlo/Unifying-MATLAB-and-Simulink-Example) is available in the [License.TXT](License.TXT) file in this GitHub repository.
 
 ## Community Support
 [MATLAB Central](https://www.mathworks.com/matlabcentral)
