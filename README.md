@@ -1,6 +1,8 @@
 # Unifying MATLAB and Simulink Example
 <!-- This is the "Title of the contribution" that was approved during the Community Contribution Review Process --> 
 
+[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=guirlo/Unifying-MATLAB-and-Simulink-Example&project=CustomGaugesSimulink.prj&file=openSimulinkExample.m)
+
 [![View <File Exchange Title> on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/####-file-exchange-title)  
 <!-- Add this icon to the README if this repo also appears on File Exchange via the "Connect to GitHub" feature --> 
 
