@@ -1,9 +1,9 @@
 classdef Vehicle < slPart
     properties
-		Engine {mustBeA(Engine,'engine.Engine')} = engine.Engine50kW
-		Battery {mustBeA(Battery,'battery.Battery')} = battery.Battery100Ah
-		Drivetrain {mustBeA(Drivetrain,'drivetrain.Drivetrain')} = drivetrain.Parallel
-		Body {mustBeA(Body,'body.Body')} = body.Sedan
+		Engine engine.Engine = engine.Engine50kW
+		Battery battery.Battery = battery.Battery100Ah
+		Drivetrain drivetrain.Drivetrain = drivetrain.Parallel
+		Body body.Body = body.Sedan
     end
 
     methods

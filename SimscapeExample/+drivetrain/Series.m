@@ -1,4 +1,7 @@
 classdef Series < drivetrain.Drivetrain
+    properties
+        Generator drivetrain.generator.Generator = drivetrain.generator.Generator200kW
+    end
     methods
         function obj = Series
 			obj.Motor = drivetrain.motor.Motor200kW;
