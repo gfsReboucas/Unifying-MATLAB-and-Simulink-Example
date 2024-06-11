@@ -1,7 +1,7 @@
 classdef (Abstract) vehicle < slPart
     properties
-        Suspension 
-        Body
+        Suspension suspension.vehicleSuspension = suspension.oneDof
+        Body body.body = body.sedan
     end
 
         methods

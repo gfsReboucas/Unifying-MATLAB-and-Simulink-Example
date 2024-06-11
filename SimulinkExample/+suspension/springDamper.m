@@ -1,7 +1,7 @@
 classdef (Abstract) springDamper < slPart
     properties
-        Spring
-        Damper
+        Spring spring.spring = spring.linear
+        Damper damper.damper = damper.linear
     end
 
     methods

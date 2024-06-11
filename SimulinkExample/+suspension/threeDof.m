@@ -1,9 +1,9 @@
 classdef threeDof < suspension.vehicleSuspension
     properties
-        FrontLeft
-        FrontRight
-        RearLeft
-        RearRight
+        FrontLeft suspension.springDamper = suspension.springDamperLinear
+        FrontRight suspension.springDamper = suspension.springDamperLinear
+        RearLeft suspension.springDamper = suspension.springDamperLinear
+        RearRight suspension.springDamper = suspension.springDamperLinear
     end
 
     methods

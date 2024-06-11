@@ -1,6 +1,6 @@
 classdef oneDof < suspension.vehicleSuspension
     properties
-        Suspension
+        Suspension suspension.springDamper = suspension.springDamperLinear
     end
 
     methods

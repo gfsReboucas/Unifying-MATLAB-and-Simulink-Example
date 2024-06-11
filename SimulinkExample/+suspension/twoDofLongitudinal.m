@@ -1,7 +1,7 @@
 classdef twoDofLongitudinal < suspension.vehicleSuspension
     properties
-        Front
-        Rear
+        Front suspension.springDamper = suspension.springDamperLinear
+        Rear suspension.springDamper = suspension.springDamperLinear
     end
 
     methods

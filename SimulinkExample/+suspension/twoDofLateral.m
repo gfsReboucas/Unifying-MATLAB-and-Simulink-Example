@@ -1,7 +1,7 @@
 classdef twoDofLateral < suspension.vehicleSuspension
     properties
-        Left
-        Right
+        Left suspension.springDamper = suspension.springDamperLinear
+        Right suspension.springDamper = suspension.springDamperLinear
     end
 
     methods
