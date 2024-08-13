@@ -10,28 +10,28 @@ This repository contains two examples accompanying the series of blog posts titl
 
 The workflow illustrated in this example systematically combines a MATLAB class and a Simulink Subsystem into a fundamental unit called **Simulink Part**. 
 
-![Unifying MATLAB and Simulink](https://blogs.mathworks.com/images/simulink/2022Q2/ML_SL.png)
+![Unifying MATLAB and Simulink](https://github.com/guirlo/Unifying-MATLAB-and-Simulink-Example/blob/master/images/ML_SL.png)
 
 
 The MATLAB class contains the data needed by the Simulink model along with methods. It can also include methods to pre- and post-process the data needed by and produced by the model. 
 
-![Parameterizing Simulink with MATLAB objects](https://blogs.mathworks.com/images/simulink/2022Q2/ClassUSedInModel.png)
+![Parameterizing Simulink with MATLAB objects](https://github.com/guirlo/Unifying-MATLAB-and-Simulink-Example/blob/master/images/ClassUSedInModel.png)
 
 
 Once the Simulink Part is placed in a model, the corresponding MATLAB object knows where it is being used, thanks to callbacks defined in a library of template blocks.
 
 Simulink Parts can be assembled in a hierarchical manner, where a Simulink Part can become a property (child) of another Simulink Part. You can imagine the analogy with a garage or workshop with mechanical parts on shelves. Basic components like gears, nuts, bolts, springs and dampers can be assembled in systems like transmissions and suspensions, which can then be assembled into vehicles. 
 
-![A hierarchhy of Simulink Parts](https://blogs.mathworks.com/simulink/files/maskingEvolutionChapter1_13.png)
+![A hierarchhy of Simulink Parts](https://github.com/guirlo/Unifying-MATLAB-and-Simulink-Example/blob/master/images/maskingEvolutionChapter1_13.png)
 
 The model and corresponding MATLAB object can be configured using MATLAB code. See the walkthrough.mxl live scripts included in the project for examples:
 
-![Live script describing how to configure the model programmatically](https://blogs.mathworks.com/images/simulink/2022Q2/liveScriptExample.png)
+![Live script describing how to configure the model programmatically](https://github.com/guirlo/Unifying-MATLAB-and-Simulink-Example/blob/master/images/liveScriptExample.png)
 
 
 The model can also be configured using an app:
 
-![System Confiurator App](https://blogs.mathworks.com/images/simulink/2022Q2/usingTheApp.png)
+![System Confiurator App](https://github.com/guirlo/Unifying-MATLAB-and-Simulink-Example/blob/master/images/usingTheApp.png)
 
 Copyright 2022 The MathWorks, Inc.
 
